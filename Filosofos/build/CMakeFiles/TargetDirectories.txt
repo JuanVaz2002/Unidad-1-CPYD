@@ -1,0 +1,3 @@
+/devenv/workspace/Unidad 1/Filosofos/build/CMakeFiles/Filosofos.dir
+/devenv/workspace/Unidad 1/Filosofos/build/CMakeFiles/edit_cache.dir
+/devenv/workspace/Unidad 1/Filosofos/build/CMakeFiles/rebuild_cache.dir
