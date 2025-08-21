@@ -1,8 +1,0 @@
-[
-{
-  "directory": "/devenv/workspace/Unidad 1/Filosofos/build",
-  "command": "/usr/bin/g++ -I\"/devenv/workspace/Unidad 1/Filosofos/..\" -g -std=gnu++26 -fmodules-ts -fmodule-mapper=CMakeFiles/Filosofos.dir/main.cpp.o.modmap -MD -fdeps-format=p1689r5 -x c++ -o CMakeFiles/Filosofos.dir/main.cpp.o -c \"/devenv/workspace/Unidad 1/Filosofos/main.cpp\"",
-  "file": "/devenv/workspace/Unidad 1/Filosofos/main.cpp",
-  "output": "CMakeFiles/Filosofos.dir/main.cpp.o"
-}
-]
