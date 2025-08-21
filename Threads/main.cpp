@@ -52,15 +52,12 @@ int main() {
     for (auto &t : threads) t.join();
 
     // Encontrar thread con la mayor suma
-    int bestId = 0;
-    long bestSum = 0;
-    for (auto& w : workers) {
-        long sum = w->getSum();
-        if (sum > bestSum) {
-            bestSum = sum;
-            bestId = w->id;
-        }
-    }
+    std::sort(workers.begin(), workers.end(), [](const auto &w1, const auto &w2) {
+        return w1->getSum() > w2->getSum();
+    });
+    
+    int bestId = workers[0]->id;
+    long bestSum = workers[0]->getSum();
 
     cout << "\nEl thread con mayor puntuacion es: " 
          << bestId << " con suma = " << bestSum << endl;
